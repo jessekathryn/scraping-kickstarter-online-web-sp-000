@@ -15,5 +15,6 @@ require 'pry'
 # title: project.css("h2.bbcard_name strong a").text
 # image link: project.css("div.project-thumbnail a img").attribute("src").value
 # location: project.css("span.location-name").text
+# project.css("ul.project-stats li.first.funded strong").text
 
 create_project_hash
