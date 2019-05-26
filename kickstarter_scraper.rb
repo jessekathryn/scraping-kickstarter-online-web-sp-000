@@ -11,5 +11,5 @@ require 'pry'
   end
 
 # projects: kickstarter.css("li.project.grid_4")
-
+# chain 
 create_project_hash
