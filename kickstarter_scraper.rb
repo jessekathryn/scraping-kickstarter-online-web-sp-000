@@ -1,5 +1,6 @@
 # require libraries/modules here
-requre 'nokogiri'
+require 'nokogiri'
+require 'pry' 
 
   def create_project_hash
     # This just opens a file and reads it into a variable
@@ -7,3 +8,7 @@ requre 'nokogiri'
  
     kickstarter = Nokogiri::HTML(html) 
   end
+
+binding.pry
+
+create_project_hash
